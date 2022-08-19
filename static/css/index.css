@@ -544,7 +544,7 @@ body{
   background: black;
   border-radius: 10px;
 }
-.section-link:hover .info{
+.link-btn:hover .info{
   filter: alpha(opacity=80);
   opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
 }
