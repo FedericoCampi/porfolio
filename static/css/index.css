@@ -535,7 +535,8 @@ body{
 .info {
   position: absolute;
   text-align: center;
-  top: 10%;
+  top: 75%;
+  right: 40%;
   zoom: 1;
   color: white;
   opacity: 0; /*Inicialmente transparente */
@@ -673,5 +674,17 @@ footer {
   }
   .container__foto img:hover{
     filter: brightness(75%) grayscale(1);
+  }
+  .info {
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    right:25%;
+    zoom: 1;
+    color: white;
+    opacity: 0; /*Inicialmente transparente */
+    padding: 5px;
+    background: black;
+    border-radius: 10px;
   }
 }
