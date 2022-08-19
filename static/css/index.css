@@ -302,7 +302,7 @@ body{
   border-radius: 25px;
   padding: -5px 0 -10px 0;
   transition:visibility 0.5s, opacity 1s;
-  border: 2px solid black;
+  border: 0px solid black;
 }
 
 
