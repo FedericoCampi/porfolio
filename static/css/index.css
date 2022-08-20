@@ -101,9 +101,9 @@ header .header-text {
 }
 
 .container__foto{
-  display: flex;
-width: 100%;
-justify-content: flex-end;
+  display: flex;  
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .container__foto img{
@@ -667,6 +667,11 @@ footer {
   }
 }
 @media(max-width: 750px){
+  .container__foto{
+    position: fixed;
+    padding-bottom: 500px;
+    padding-right: 50px;
+  }
   .container__foto img{
     position: absolute;
       display: flex;
