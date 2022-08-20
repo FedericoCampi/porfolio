@@ -668,18 +668,20 @@ footer {
 }
 @media(max-width: 750px){
   .container__foto{
-    position: fixed;
+    position: absolute;
     padding-bottom: 500px;
     padding-right: 50px;
   }
   .container__foto img{
-    position: absolute;
-      display: flex;
-      margin-right: 20px;
-      object-fit: cover;
-      filter: brightness(75%) grayscale(1);
-      transition: filter 1000ms;
-      cursor: pointer;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: flex;
+    margin-right: 20px;
+    object-fit: cover;
+    filter: brightness(75%) grayscale(1);
+    transition: filter 1000ms;
+    cursor: pointer;
   }
   .container__foto img:hover{
     filter: brightness(75%) grayscale(1);
