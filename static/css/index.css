@@ -567,6 +567,10 @@ footer {
   margin-bottom: -5px;
 }
 
+.bmc-btn:hover span{
+  background-color: #a67a59;
+}
+
 @media screen and (max-width: 960px) {
   header .fixed-header:before {
     height: 51%;
