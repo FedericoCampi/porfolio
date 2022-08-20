@@ -349,7 +349,6 @@ body{
 }
 
 
-
 .talk-card {
   flex: 1 0 auto;
   margin: 1.5rem;
@@ -567,8 +566,9 @@ footer {
   margin-bottom: -5px;
 }
 
-.bmc-btn-container:hover a{
+.s:hover div{
   background-color: #a67a59;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 960px) {
@@ -692,3 +692,25 @@ footer {
     border-radius: 10px;
   }
 }
+
+@media (max-width: 500px){
+  header h1 p {
+    position: relative;
+    font: inherit;
+    margin: 0;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: left;
+    line-height: 130%;
+    letter-spacing: -0.03em;
+  }
+  
+  header h2 {
+    max-width: 65ch;
+    font-weight: 100;
+    color: var(--shade-500);
+    margin: 0;
+  }
+}
+
