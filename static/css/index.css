@@ -567,7 +567,7 @@ footer {
   margin-bottom: -5px;
 }
 
-.bmc-btn:hover span{
+.bmc-btn-container:hover a{
   background-color: #a67a59;
 }
 
