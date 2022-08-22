@@ -529,9 +529,13 @@
         <div class="container__foto"> 
           <img src="static/images/about/fotit.jpeg" alt="">
         </div>
-        <h1>
+        <div class="icons__header" >
+          <img src="static/images/favicon/mayorque.png" alt="">
+        </div>
+        
+        <!-- <h1>
           <p class="animate-text-1"><</p>
-        </h1>
+        </h1> -->
         <div class="logo-container">
           <span class="logo animate-logo">Federico Campi</span>
         </div>
@@ -543,32 +547,35 @@
         </div>
         <h2 class="animate-subtitle">
         </h2>
-        <h1>
-          <p class="animate-text-1">/></p>
-        </h1>
+        <div class="icons__header" >
+          <img src="static/images/favicon/menorque.png" alt="">
+        </div>
         <div class="scroll-button animate-scroll" tabindex="0">
           <div class="arrow">↓</div> scroll
         </div>
       </div>
     </div>
   </header>
-  <nav>
-    <div class="container">
-      <a href="/" class="nav-logo" title="Back to Homepage">
-        Fede Campi
+  <div id="nav">
+
+  </div>
+  <nav >
+    <div class="container" >
+      <a class="nav-logo" href="#nav" title="Sobre mí">
+        <img src="static/images/logo/fclgblue.png" alt="">
       </a>
       <div class="nav-links">
         <a href="#about" class="link">Sobre mí</a>
         <a href="#projects" class="link">Proyectos</a>
         <a href="#contact" class="link">Contacto</a>
         <div class="social-media">
-          <a href="https://github.com/FedericoCampi" title="Github">
+          <a href="https://github.com/FedericoCampi" target="_blank" title="Github">
             <img src="static/images/favicon/github.png" alt="">
           </a>
-          <a href="https://www.twitter.com/jemimaabu" title="linkedin">
+          <a href="https://www.linkedin.com/in/federico-campi" target="_blank" title="linkedin">
             <img src="static/images/favicon/linkedin.png" alt="">
           </a>
-          <a href="https://www.linkedin.com/in/federico-campi" title="instagram">
+          <a href="https://www.instagram.com/federicocampii/" target="_blank" title="instagram">
             <img src="static/images/favicon/instagram-logo.png" alt="">
           </a>
         </div>
@@ -611,15 +618,14 @@
     <section id="about">
       <div class="container inner-container">
         <div class="intro scroll-in">
-          <h2 class="section-title">Hola, soy Fede campi</h2>
+          <h2 class="section-title">Hola, soy Federico Campi</h2>
           <div class="section-subtitle">
-            <p> Soy frontend developer y estudiante de ingeniería en sistemas, nacido en Argentina.</p>
+            <p>Desarrollador de software FrontEnd y estudiante de ingeniería en sistemas, nacido en Argentina.</p>
             <p>
-              Construyo y diseño webs generalmente con focus en la funcionalidad y la experiencia
-              del usuario. 
+              Construyo y diseño webs con focus en la funcionalidad y la interactividad.
             </p>
             <p>
-              Actualmente creando proyectos personales y buscando mi primer experiencia como Desarrollador,
+              Actualmente creando proyectos personales y buscando mi primer experiencia como Developer,
               para trabajar con proyectos más grandes, complejos y poder aprender nuevas tecnologías
               trabajando con ellas.
             </p>
@@ -661,12 +667,15 @@
                   <a href="https://federicocampi.github.io/pageRD/" target="_blank" rel="noopener"> Proyecto CoderHouse </a>
                 </h3>
                 <div class="project-description">
-                  <p>Esta página fue la que cree para mi proyecto final en el curso de CoderHouse de
-                    desarrollo web. Cuenta con responsive design y posicionamiento SEO.</p>
+                  <p>Página creada para mi proyecto final en el curso de CoderHouse de
+                    desarrollo web. En donde también aprendí el uso de control de versiones con Git y github.
+                    Cuenta con responsive design y posicionamiento SEO.</p>
                 </div>
                 <ul class="project-tags" title="Technologies used">
                   <li class="tag">HTML</li>
                   <li class="tag">CSS</li>
+                  <li class="tag">BOOTSRAP</li>
+                  <li class="tag">SASS</li>
                 </ul>
                 <div class="project-links">
                   <a href="https://federicocampi.github.io/pageRD/" target="_blank" rel="noopener" class="link-btn">Ir al sitio</a>
@@ -688,17 +697,17 @@
                 </h3>
                 <div class="project-description">
                   <p>
-                    Delivery Web pensada para mobile, con login de inicio, filtro de comidas, carrito
-                    de compras y sección de contacto.
+                    Ecommerce de comida pensada para mobile, con login de inicio, filtro de comidas, carrito
+                    de compras y sección de contacto.(Terminando cambios en diseño y formato)
                   </p>
                 </div>
                 <ul class="project-tags">
                   <li class="tag">HTML</li>
                   <li class="tag">CSS</li>
-                  <li class="tag">Vanilla JavaScript</li>
+                  <li class="tag">JavaScript</li>
                 </ul>
                 <div class="project-links">
-                  <a href="http://appdeliveryvanillajs.000webhostapp.com/pages/postlogin.html" target="_blank" rel="noopener"
+                  <a href="http://appdeliveryvanillajs.000webhostapp.com/index.html" target="_blank" rel="noopener"
                     class="link-btn">Ir al sitio</a>
                 </div>
               </div>
@@ -854,7 +863,7 @@
             <h3>Otros:</h3>
             <ul>
               <li>
-                <a href="https://drive.google.com/file/d/1rVjJpN4Q9HqvAeNlynOwEFnRFDuL3Sn3/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1rVjJpN4Q9HqvAeNlynOwEFnRFDuL3Sn3/view?usp=sharing" target="_blank"
                   class="contact-link">Descarga mi cv</a>
               </li>
             </ul>
@@ -916,13 +925,13 @@
     </div>
     <div class="container">
       <div class="social-media_footer">
-        <a href="https://github.com/FedericoCampi" title="Github">
+        <a href="https://github.com/FedericoCampi" target="_blank" title="Github">
           <img src="static/images/favicon/github.png" alt="">
         </a>
-        <a href="https://www.linkedin.com/in/federico-campi" title="LinkedIn">
+        <a href="https://www.linkedin.com/in/federico-campi" target="_blank" title="LinkedIn">
           <img src="static/images/favicon/linkedin.png" alt="">
         </a>
-        <a href="https://www.twitter.com/jemimaabu" title="instagram">
+        <a href="https://www.instagram.com/federicocampii/" target="_blank" title="instagram">
           <img src="static/images/favicon/instagram-logo.png" alt="">
         </a>
       </div>

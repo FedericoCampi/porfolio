@@ -100,6 +100,11 @@ header .header-text {
   animation: bounce-top 1.5s ease-in-out infinite both;
 }
 
+.icons__header{
+}
+.header-container img{
+}
+
 .container__foto{
   display: flex;  
   width: 100%;
@@ -166,7 +171,15 @@ body{
   width: 50px;
   height: 50px;
 }
-
+/* medidas logo fc
+.nav-logo img
+  width: 73px;
+  height: 56px;
+ */
+.nav-logo img{
+  width: 73px;
+  height: 56px;
+}
 .scrolled .title-icon {
   animation: bounce-top 1s ease-in-out both;
 }
@@ -247,6 +260,7 @@ body{
   display: flex;
   padding: 1rem;
   margin: 0;
+  flex-wrap: wrap;
 }
 
 .project-tags .tag {
@@ -345,7 +359,7 @@ body{
   color: #fbdb04;
 }
 .color7 div{
-  color: white;
+  color: var(--text-color);
 }
 
 
