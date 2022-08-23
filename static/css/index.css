@@ -311,6 +311,7 @@ body{
   filter: brightness(100%) grayscale(0);
 }
 
+
 .fondoGH:hover{
   background-color: white;
   border-radius: 25px;
@@ -711,6 +712,14 @@ footer {
     padding: 5px;
     background: black;
     border-radius: 10px;
+  }
+  .header-container img{
+    width: 33px;
+    height: 38px;
+  }
+  .nav-logo img{
+    width: 63px;
+    height: 46px;
   }
 }
 
