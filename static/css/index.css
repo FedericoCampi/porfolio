@@ -132,7 +132,7 @@ section:nth-of-type(even) {
 }
 
 section .container {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 
 section:last-of-type .container {
@@ -714,8 +714,7 @@ footer {
     border-radius: 10px;
   }
   .icons__header img{
-    width: 33px;
-    height: 33x;
+    width: 28px;
   }
   .nav-logo img{
     width: 63px;
