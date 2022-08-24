@@ -27,7 +27,7 @@ header h1 p {
   font: inherit;
   margin: 0;
   width: fit-content;
-  font-weight: 600;
+  font-weight: 500;
   text-align: left;
   line-height: 130%;
   letter-spacing: -0.03em;
@@ -668,13 +668,16 @@ footer {
   }
 }
 @media (max-width: 1300px){
+  .container__foto{
+    position: absolute;
+    padding-bottom: 500px;
+    right: 5%;
+  }
   .container__foto img{
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    position: absolute;
       display: flex;
-      margin-right: 20px;
       object-fit: cover;
       filter: brightness(75%) grayscale(1);
       transition: filter 1000ms;
@@ -685,14 +688,13 @@ footer {
   .container__foto{
     position: absolute;
     padding-bottom: 500px;
-    padding-right: 50px;
+    right: 5%;
   }
   .container__foto img{
     width: 200px;
     height: 200px;
     border-radius: 100px;
     display: flex;
-    margin-right: 20px;
     object-fit: cover;
     filter: brightness(75%) grayscale(1);
     transition: filter 1000ms;
@@ -719,6 +721,9 @@ footer {
   .nav-logo img{
     width: 63px;
     height: 46px;
+  }
+  .header-text{
+    font-size: 2rem;
   }
 }
 
