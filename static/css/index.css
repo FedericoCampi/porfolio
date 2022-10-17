@@ -124,7 +124,7 @@ header .header-text {
     cursor: pointer;
 }
 .container__foto img:hover{
-  filter: brightness(100%) grayscale(0);
+  filter: brightness(75%) grayscale(0);
 }
 
 section:nth-of-type(even) {
@@ -361,6 +361,12 @@ body{
 }
 .color7 div{
   color: var(--text-color);
+}
+.color8 div{
+  color: #64dcfc;
+}
+.fondoREACT img{
+  width: 100%;
 }
 
 
