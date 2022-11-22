@@ -1,4 +1,4 @@
-Design for my new portfolio website
+Portfolio creado en HTML, CSS y JAVASCRIPT.
 
 ---
 
