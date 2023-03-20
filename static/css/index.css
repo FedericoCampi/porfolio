@@ -368,7 +368,18 @@ body{
 .fondoREACT img{
   width: 100%;
 }
-
+.color9 div{
+  color: #44a4b4;
+}
+.color10 div{
+  color: #04648c;
+}
+.color10B{
+  color: #e48d04;
+}
+.color11 div{
+  color: #14a653;
+}  
 
 .talk-card {
   flex: 1 0 auto;
