@@ -119,12 +119,13 @@ header .header-text {
     display: flex;
     margin-right: 20px;
     object-fit: cover;
-    filter: brightness(75%) grayscale(1);
+    
     transition: filter 1000ms;
     cursor: pointer;
 }
 .container__foto img:hover{
-  filter: brightness(75%) grayscale(0);
+  filter: brightness(75%) grayscale(1);
+  /* filter: brightness(75%) grayscale(0); */
 }
 
 section:nth-of-type(even) {
@@ -382,7 +383,13 @@ body{
 }  
 .color12 div{
   color: #048cd4;
-}  
+}
+.color13 div{
+  color: #dc8c2c;
+}
+.color14 div{
+  color: #94c858;
+}
 
 .talk-card {
   flex: 1 0 auto;
@@ -620,7 +627,7 @@ footer {
 
 @media screen and (min-width: 721px) {
   .project-container {
-    margin: 0 -5rem;
+    margin:0 -3rem;
   }
 
   .project {
