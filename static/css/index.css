@@ -119,13 +119,7 @@ header .header-text {
     display: flex;
     margin-right: 20px;
     object-fit: cover;
-    
-    transition: filter 1000ms;
     cursor: pointer;
-}
-.container__foto img:hover{
-  filter: brightness(75%) grayscale(1);
-  /* filter: brightness(75%) grayscale(0); */
 }
 
 section:nth-of-type(even) {
@@ -398,6 +392,9 @@ body{
 }
 .color17 div{
   color: #757cb3;
+}
+.color18 div{
+  color: #047ccc;
 }
 
 
@@ -717,8 +714,6 @@ footer {
     border-radius: 100px;
       display: flex;
       object-fit: cover;
-      filter: brightness(75%) grayscale(1);
-      transition: filter 1000ms;
       cursor: pointer;
   }
 }
@@ -734,12 +729,7 @@ footer {
     border-radius: 100px;
     display: flex;
     object-fit: cover;
-    filter: brightness(75%) grayscale(1);
-    transition: filter 1000ms;
     cursor: pointer;
-  }
-  .container__foto img:hover{
-    filter: brightness(75%) grayscale(1);
   }
   .info {
     position: absolute;
