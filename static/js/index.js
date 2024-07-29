@@ -117,3 +117,58 @@ menu.addEventListener("click", function () {
 window.addEventListener('scroll', () => {
   handleNavScroll()
 })
+
+
+
+
+const texts = ["Federico Campi", "Desarrollador", "Full stack"];
+let count = 0;
+let index = 0;
+let currentText = "";
+let letter = "";
+
+function type() {
+  if (count === texts.length) {
+    return; // Detener cuando se hayan mostrado todas las palabras
+  }
+
+  currentText = texts[count];
+  letter = currentText.slice(0, ++index);
+
+  if (count === 0) {
+    const logoElement = document.getElementById("logo");
+    logoElement.textContent = letter;
+    logoElement.classList.add("blinking-cursor");
+  } else if (count === 1) {
+    const text1Element = document.getElementById("text1");
+    text1Element.textContent = letter;
+    text1Element.classList.add("blinking-cursor");
+  } else if (count === 2) {
+    const text2Element = document.getElementById("text2");
+    text2Element.textContent = letter;
+    text2Element.classList.add("blinking-cursor");
+  }
+
+  if (letter.length === currentText.length) {
+    setTimeout(() => {
+      if (count === 0) {
+        document.getElementById("logo").classList.remove("blinking-cursor", "logo");
+      } else if (count === 1) {
+        document.getElementById("text1").classList.remove("blinking-cursor", "animate-text-1");
+      } else if (count === 2) {
+        document.getElementById("text2").classList.remove("blinking-cursor", "animate-text-2");
+      }
+
+      count++;
+      index = 0;
+      setTimeout(type, 100); // Pausa antes de empezar con la siguiente palabra
+    }, 100); // Pausa breve para permitir ver la línea al final
+  } else {
+    setTimeout(type, 150); // Velocidad de tipeo
+  }
+}
+
+type();
+
+
+

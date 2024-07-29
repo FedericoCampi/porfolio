@@ -62,9 +62,8 @@ header.js-fixed .fixed-header.scrolled {
 
 header .fixed-header:before {
   content: "";
-  z-index: -1;
   position: absolute;
-  background-color: var(--shade-100);
+  background-color: #0a141e !important;
   width: 100%;
   height: 50%;
   margin: auto;
@@ -610,7 +609,9 @@ footer {
   height: 30px;
   margin: 0 5px;
 }
-
+.name{
+  padding-bottom: 5px;
+}
 
 .arreglos svg{
   margin-bottom: -5px;
@@ -620,6 +621,32 @@ footer {
   background-color: #a67a59;
   border-radius: 5px;
 }
+
+
+.logo,
+.animate-text-1,
+.animate-text-2 {
+  border-right: 2px solid white;
+  padding-right: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.blinking-cursor {
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+
+
 
 @media screen and (max-width: 960px) {
   header .fixed-header:before {

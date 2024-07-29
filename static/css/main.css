@@ -204,10 +204,17 @@ nav .container {
   font-size: 1.1rem;
 }
 
+.logoName {
+  text-align: center;
+  font-size: 1.25rem;
+  color: rgb(102, 102, 252);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 .logo {
   text-align: center;
   font-size: 1.25rem;
-  color: var(--shade-500);
+  color: rgb(102, 102, 252);
   letter-spacing: 1px;
   text-transform: uppercase;
 }
