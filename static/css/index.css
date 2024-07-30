@@ -63,7 +63,7 @@ header.js-fixed .fixed-header.scrolled {
 header .fixed-header:before {
   content: "";
   position: absolute;
-  background-color: #0a141e !important;
+  background-color: #1a324c !important;
   width: 100%;
   height: 50%;
   margin: auto;
@@ -105,9 +105,9 @@ header .header-text {
 }
 
 .container__foto{
-  display: flex;  
-  width: 100%;
-  justify-content: flex-end;
+  position: absolute;
+  padding-bottom: 500px;
+  right: 30%;
 }
 
 .container__foto img{
@@ -141,6 +141,7 @@ body{
 .section-link {
   text-align: center;
   margin-top: 5rem;
+  padding-bottom: 50px;
 }
 
 .section-title {
@@ -149,6 +150,7 @@ body{
   font-size: 2.5rem;
   font-weight: 600;
   color: var(--shade-500);
+  padding-top: 50px;
 }
 
 .section-subtitle {
@@ -645,7 +647,9 @@ footer {
   }
 }
 
-
+.hidden{
+  display: none !important;
+}
 
 
 @media screen and (max-width: 960px) {
@@ -733,7 +737,7 @@ footer {
   .container__foto{
     position: absolute;
     padding-bottom: 500px;
-    right: 5%;
+    right: 30%;
   }
   .container__foto img{
     width: 200px;
@@ -748,7 +752,7 @@ footer {
   .container__foto{
     position: absolute;
     padding-bottom: 500px;
-    right: 5%;
+    right: 50%;
   }
   .container__foto img{
     width: 200px;

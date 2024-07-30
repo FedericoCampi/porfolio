@@ -577,11 +577,11 @@
       </div>
       <div class="nav-controls scroll-in">
         <button id="menu-display" title="Show Menu" class="hamburger"></button>
-        <button id="theme-display" title="Select a color scheme" class="control">
+        <button id="theme-display" title="Select a color scheme" class="control hidden">
           <i class="demo-icon icon-cog"></i>
         </button>
       </div>
-      <div class="theme-container">
+      <!-- <div class="theme-container">
         <button class="light theme-select" id="light-select" onclick="setTheme('light')" aria-label="Set light theme">
           <div class="theme-label">
             Light
@@ -606,8 +606,7 @@
             <div class="color shade-500"></div>
             <div class="color text"></div>
           </div>
-        
-    </div>
+    </div> -->
   </nav>
   <main>
     <section id="about">
@@ -616,18 +615,17 @@
           <h2 class="section-title">Hola, soy Federico Campi</h2>
           <div class="section-subtitle">
             <p>
-              Desarrollador web y mobile y estudiante de Ingeniería en Sistemas.
-              Tengo amplios conocimientos y experiencia laboral en varios lenguajes, tanto en Frontend, Backend
-              y en bases de datos.
+              Desarrollador de software Full stack freelance, nacido en Argentina.
+              </br>
+              Tengo amplios conocimientos y experiencia laboral en varios lenguajes, frameworks y librerrías , tanto en Frontend, como backend.
+              </br>
+              </br>
+              Participé de complejas aplicaciones desde su creación hasta su diseño.
               </p>
               <p>
-                Me motiva aprender cosas nuevas y conocer/manejar el flujo completo de las aplicaciones.
-                Actualmente incursionando y conociendo más sobre infraestructura y Cloud programming.
+                Me motiva aprender tecnologías nuevas y conocer/entender nuevas áreas.
+                Actualmente incursionando y aprendiendo más sobre infraestructura y Cloud programming.
               </p>
-            <p>
-              Me enfoco en construir y optimizar WebApps, buscando siempre la manera
-              de mejorar mi código e implementar buenas prácticas.
-            </p>
             
           </div>
           <div class="section-link">
@@ -638,24 +636,61 @@
         </div>
       </div>
     </section>
-    <div class="wave-border top">
+    <!-- <div class="wave-border top">
       <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
         <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
           style="stroke: none; fill: var(--shade-100)"></path>
         <path class="neon-path" d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98"
           style="stroke: var(--neon-color);fill: none;"></path>
       </svg>
-    </div>
+    </div> -->
     <section id="projects">
       <div class="container">
         <div class="title-container scroll-in">
           <h2 class="section-title">Proyectos<span class="title-icon">&#128187;</span></h2>
-          <p class="section-subtitle" style="font-size: 18px;">
+          <!-- <p class="section-subtitle" style="font-size: 18px;">
             (Estos proyectos personales no han sido actualizados, por lo
             que algunas funcionalidades pueden no mostrarse correctamente)
-          </p>
+          </p> -->
         </div>
         <div class="project-container">
+
+
+
+          <div class="project scroll-in">
+            <div class="project-image">
+              <img src="./static/images/projects/astroHacks.png" width="720" height="340" alt="Canal beagle">
+            </div>
+            <div class="project-content-container">
+              <div class="project-content">
+                <h3 class="project-title">
+                  <a href="https://www.astro-hacks.com/" target="_blank" rel="noopener">Astro hacks</a>
+                </h3>
+                <div class="project-description">
+                  <p>
+                    Ultimo proyecto freelance entregado.
+                    </br>
+                  </br>
+                    Ecommerce sobre astrología realizada en NextJs. Con autenticación de usuarios,
+                    implementación de mercado pago, opción para guardar ebooks, envíos de mails, etc.
+                  </p>
+                </div>
+                <ul class="project-tags" title="Technologies used">
+                  <li class="tag">NextJs</li>
+                  <li class="tag">TailwindCss</li>
+                  <li class="tag">Mercado pago</li>
+                </ul>
+                <div class="project-links">
+                  <a href="https://www.astro-hacks.com/" target="_blank" rel="noopener" class="link-btn">Ir al sitio</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        
           <div class="project scroll-in">
             <div class="project-image">
               <img src="./static/images/projects/canalBeagle.png" width="720" height="340" alt="Canal beagle">
@@ -682,6 +717,9 @@
               </div>
             </div>
           </div>
+
+
+
           <div class="project scroll-in">
             <div class="project-image">
               <img src="./static/images/projects/e&c.png" width="720" height="340"
