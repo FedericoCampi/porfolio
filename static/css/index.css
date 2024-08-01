@@ -607,13 +607,21 @@ footer {
   height: 30px;
 }
 .social-media_footer{
+  display: flex;
+  align-items: center;
+  width: 100%;
   padding-top: 30px;
+  justify-content: center;
 }
 .social-media_footer img{
   width: 30px;
   height: 30px;
-  margin: 0 5px;
+  margin: 0 10px;
 }
+.social-media_footer img:hover{
+  opacity: 0.5;
+}
+
 .name{
   padding-bottom: 5px;
 }
