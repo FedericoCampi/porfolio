@@ -641,7 +641,7 @@ footer {
 .logo,
 .animate-text-1,
 .animate-text-2 {
-  border-right: 2px solid white;
+  /* border-right: 2px solid white; */
   padding-right: 5px;
   white-space: nowrap;
   overflow: hidden;
