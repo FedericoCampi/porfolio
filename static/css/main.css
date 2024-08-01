@@ -356,6 +356,7 @@ footer .social-media a {
 }
 
 footer .copyright {
+  padding-top: 10px;
   font-size: 0.9rem;
   color: var(--shade-500);
 }
