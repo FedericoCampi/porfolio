@@ -301,7 +301,6 @@ body{
     /* object-fit: cover;
     filter: brightness(75%) grayscale(1);
     transition: filter 1000ms; */
-    cursor: pointer;
 }
 .item__tech img:hover{
   filter: brightness(100%) grayscale(0);
