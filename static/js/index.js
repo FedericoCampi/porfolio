@@ -164,7 +164,7 @@ function type() {
       setTimeout(type, 100); // Pausa antes de empezar con la siguiente palabra
     }, 100); // Pausa breve para permitir ver la línea al final
   } else {
-    setTimeout(type, 150); // Velocidad de tipeo
+    setTimeout(type, 120); // Velocidad de tipeo
   }
 }
 
